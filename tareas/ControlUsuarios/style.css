@@ -1,0 +1,22 @@
+#log{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    background-color: aqua;
+    padding: 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+body{
+    background-image: url('img/depositphotos_6415885-stock-illustration-blue-and-green-half-flower.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}  

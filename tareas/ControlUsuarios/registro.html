@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registrar Usuario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="header">
+        <h2>Registro</h2> 
+        <h5>Control de Usuarios-Maria Venegas Berrocal</h5>
+    </div>
+    <div id="log">
+        <h1>Registro de Usuarios</h1>
+        <form id="registro">
+            <input type="text" placeholder="Nombre" id="name" required><br><br>
+            <input type="text" placeholder="Primer Apellido" id="primer"required><br><br>
+            <input type="text" placeholder="Segundo" id="seg" required><br><br>
+            <div>
+                <a><span class="glyphicon glyphicon-user" id="usericon"></span> 
+                <input type="text"  placeholder="Username" id="user" aria-describedby="usericon" required><br><br></a>
+            </div>
+            <input type="password" placeholder="Contraseña" id="pass" required minlength="8"><br><br>
+            <div>
+                <a><span class="glyphicon glyphicon-envelope" id="emicon"></span> 
+                    <input type="email" placeholder="Correo" aria-describedby="emicon"></a><br><br>
+            </div>
+            <input type="number" placeholder="Celular" id="telefono"><br><br>
+            <input type="date" placeholder="Fecha de Nacimiento" id="date"><br><br>
+            <input type="submit" value="Registrarme" class="btn btn-info" id="submit">
+        </form>
+        </div>
+</body>
+</html>
