@@ -15,6 +15,7 @@ section{
   background-color: palevioletred;
   padding: 20px 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 #me{
   border-radius: 50%;
@@ -28,8 +29,8 @@ section{
   background-color:beige;
 }
 #pers{
-  border-top:0.5cm solid lightpink;
-  border-bottom:0.5cm solid lightpink
+  border-top:0.5cm solid darkseagreen;
+  border-bottom:0.5cm solid darkseagreen;
   
 }
 p{
@@ -41,7 +42,7 @@ p{
   text-align-last: center;
   font-weight: bold;
   font-size: 28px;
-  background-color:lightpink;
+  background-color: lightpink;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #abm{
